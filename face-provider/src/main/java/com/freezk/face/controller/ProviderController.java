@@ -1,5 +1,6 @@
 package com.freezk.face.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.nacos.client.utils.JSONUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,6 +20,7 @@ import java.util.UUID;
 @Slf4j
 public class ProviderController {
     @RequestMapping(value = "/echo/{source}", method = RequestMethod.GET)
+    @SentinelResource("provider")
     public String echo(@PathVariable String source) throws UnknownHostException {
         log.info(InetAddress.getLocalHost().getHostAddress().toString());
         return "Hello Nacos I'm server provider !" +source+"--" +new Random().nextInt(1000);
