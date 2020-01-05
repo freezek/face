@@ -14,8 +14,8 @@ public class HelloNacosController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @RequestMapping(value = "/echo", method = RequestMethod.GET)
-    public String echo() {
-        return restTemplate.getForObject("http://face-provider/provider/echo/", String.class);
+    @RequestMapping(value = "/echo/{source}", method = RequestMethod.GET)
+    public String echo(@PathVariable String source) {
+        return restTemplate.getForObject("http://face-provider/provider/echo/"+source, String.class);
     }
 }

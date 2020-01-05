@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/provider")
 public class ProviderController {
-    @RequestMapping(value = "/echo", method = RequestMethod.GET)
-    public String echo() {
+    @RequestMapping(value = "/echo/{source}", method = RequestMethod.GET)
+    public String echo(@PathVariable String source) {
         return "Hello Nacos I'm server provider !";
     }
 }
