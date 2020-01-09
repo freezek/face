@@ -1,0 +1,18 @@
+server:
+  port: 8071
+
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+    gateway:
+      routes:
+        - id: lb
+          uri: lb://face-consumer
+          predicates:
+            - Path=/consumer/echo/{pram}
+
+
+

@@ -24,6 +24,7 @@
     <modules>
         <module>face-consumer</module>
         <module>face-provider</module>
+        <module>face-gateway</module>
     </modules>
 
     <dependencies>
