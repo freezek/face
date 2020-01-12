@@ -19,6 +19,7 @@
         <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
         <spring-cloud.version>Greenwich.SR4</spring-cloud.version>
         <lombok.version>1.18.8</lombok.version>
+        <jackson.version>2.10.1</jackson.version>
     </properties>
 
     <modules>
@@ -78,11 +79,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--            <dependency>-->
-            <!--                <groupId>com.alibaba.boot</groupId>-->
-            <!--                <artifactId>nacos-config-spring-boot-starter</artifactId>-->
-            <!--                <version>${nacos-config-spring-boot.version}</version>-->
-            <!--            </dependency>-->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
