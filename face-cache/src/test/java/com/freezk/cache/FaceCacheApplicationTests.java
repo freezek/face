@@ -29,7 +29,7 @@ public class FaceCacheApplicationTests {
         long l = System.currentTimeMillis();
         for (int i = 0; i < 1000; i++) {
             UnknownError unknownError = new UnknownError();
-            redisUtil.setEx(String.valueOf(i), objectMapper.writeValueAsString(unknownError),10000, TimeUnit.MILLISECONDS);
+            redisUtil.setEx(String.valueOf(i), unknownError.toString().getBytes(),10000, TimeUnit.MILLISECONDS);
         }
         log.info("save to redis 1000 times spend time:{}",System.currentTimeMillis()-l);
         log.info("foo's value:{}",redisUtil.get("foo"));
