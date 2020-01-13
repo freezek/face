@@ -22,9 +22,14 @@
     </properties>
 
     <modules>
-        <module>face-consumer</module>
-        <module>face-provider</module>
+        <module>face-monitor</module>
+        <module>face-oss</module>
         <module>face-gateway</module>
+        <module>face-log</module>
+        <module>face-cache</module>
+        <module>face-common</module>
+        <module>face-engine</module>
+        <module>face-nosql</module>
     </modules>
 
     <dependencies>
