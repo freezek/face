@@ -10,7 +10,7 @@
     <groupId>com.freezk</groupId>
     <artifactId>face-transcation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>face-transcation</name>
+    <name>face-transaction</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
