@@ -11,7 +11,7 @@
 	<artifactId>face-transaction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>message-center</name>
+	<name>face-transaction</name>
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
