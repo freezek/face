@@ -20,6 +20,7 @@
         <spring-cloud.version>Greenwich.SR4</spring-cloud.version>
         <lombok.version>1.18.8</lombok.version>
         <jackson.version>2.10.1</jackson.version>
+        <spring-kafka.version>2.2.12</spring-kafka.version>
     </properties>
 
     <modules>
@@ -85,7 +86,11 @@
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-kafka.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
