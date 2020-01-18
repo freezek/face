@@ -1,6 +1,6 @@
-package com.freezk.controller;
+package com.freezk.producer.controller;
 
-import com.freezk.service.EchoService;
+import com.freezk.producer.service.EchoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

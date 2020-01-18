@@ -1,13 +1,13 @@
-package com.freezk.log;
+package com.freezk.producer.log;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FaceLogApplicationTests {
+public class FaceLogApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
 }

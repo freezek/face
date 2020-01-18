@@ -1,17 +1,15 @@
-package com.freezk.cache;
+package com.freezk.producer.cache;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.freezk.cache.tools.RedisUtil;
+import com.freezk.producer.cache.tools.RedisUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 @SpringBootTest(classes = {FaceCacheApplication.class})

@@ -1,4 +1,4 @@
-package com.freezk;
+package com.freezk.producer;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.freezk.service.fallback;
+package com.freezk.producer.service.fallback;
 
-import com.freezk.service.EchoService;
+import com.freezk.producer.service.EchoService;
 import org.springframework.web.bind.annotation.PathVariable;
 
 public class EchoServiceFallback implements EchoService {

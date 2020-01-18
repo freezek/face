@@ -1,4 +1,4 @@
-package com.freezk.controller;
+package com.freezk.producer.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.nacos.client.utils.JSONUtils;

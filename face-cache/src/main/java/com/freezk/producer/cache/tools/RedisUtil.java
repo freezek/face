@@ -1,4 +1,4 @@
-package com.freezk.cache.tools;
+package com.freezk.producer.cache.tools;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.DataType;

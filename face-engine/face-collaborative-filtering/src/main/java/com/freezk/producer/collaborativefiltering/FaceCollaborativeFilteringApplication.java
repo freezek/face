@@ -1,4 +1,4 @@
-package com.freezk.collaborativefiltering;
+package com.freezk.producer.collaborativefiltering;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

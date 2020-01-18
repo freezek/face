@@ -1,4 +1,4 @@
-package com.freezk.config;
+package com.freezk.producer.config;
 
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;

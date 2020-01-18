@@ -1,4 +1,4 @@
-package com.freezk.common;
+package com.freezk.producer.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

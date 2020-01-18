@@ -1,4 +1,4 @@
-package com.freezk.cache;
+package com.freezk.producer.cache;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

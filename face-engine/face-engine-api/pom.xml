@@ -6,7 +6,6 @@
         <groupId>com.freezk</groupId>
         <artifactId>face-engine</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.freezk</groupId>
     <artifactId>face-engine-api</artifactId>

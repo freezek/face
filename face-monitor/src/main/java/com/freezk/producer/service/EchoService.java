@@ -1,6 +1,6 @@
-package com.freezk.service;
+package com.freezk.producer.service;
 
-import com.freezk.service.fallback.EchoServiceFallback;
+import com.freezk.producer.service.fallback.EchoServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.freezk.common;
+package com.freezk.producer.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

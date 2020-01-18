@@ -1,4 +1,4 @@
-package com.freezk.cache.base;
+package com.freezk.producer.cache.base;
 
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
