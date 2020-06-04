@@ -14,5 +14,8 @@ spring:
 #          predicates:
 #            - Path=/consumer/echo/{pram}
 
-
+management:
+  endpoint:
+    health:
+      show-details: always
 

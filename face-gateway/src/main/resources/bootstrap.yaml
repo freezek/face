@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: face-gateway
+  cloud:
+    nacos:
+     config:
+      server-addr: 127.0.0.1:8848
+      file-extension: properties
+      namespace: ffc03a38-3e19-4c80-99e3-9e2ed757985d
+#      group: IRS_NACOS
+      #        shared-dataids:
+      #          - application
+      #          - redis-config
+      #          - mysql-config
+      #          - es-config
+      #          - mail-config
+      #          - kafka-config
+      ext-config:
+        - dataId: redis1.properties
+          group: IRS_NACOS
+      #          - redis-config
+      #          - mysql-config
+      #          - es-config
+      #          - mail-config
+      #          - kafka-config
+      refreshable-dataids: true
+     discovery:
+      server-addr: 127.0.0.1:8848
