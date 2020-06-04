@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+redis:
+  cache:
+  database: 0
+  host: 192.168.31.131
+  port: 6379
+  password: foo
+  lettuce:
+    pool:
+      max-active: 8
+      max-wait: 10000
+      max-idle: 4
+      min-idle: 0
+      shutown-timeout: 4000
+  timeout: 10000
