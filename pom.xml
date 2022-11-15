@@ -19,7 +19,7 @@
         <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
         <spring-cloud.version>Greenwich.SR4</spring-cloud.version>
         <lombok.version>1.18.8</lombok.version>
-        <jackson.version>2.10.1</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
         <spring-kafka.version>2.1.12.RELEASE</spring-kafka.version>
 
         <maven.compiler.version>3.8.0</maven.compiler.version>
